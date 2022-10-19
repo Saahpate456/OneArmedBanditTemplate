@@ -45,7 +45,7 @@
             // 
             this.spinButton.BackColor = System.Drawing.Color.LimeGreen;
             this.spinButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.spinButton.Font = new System.Drawing.Font("Rockwell", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.spinButton.Location = new System.Drawing.Point(319, 122);
             this.spinButton.Margin = new System.Windows.Forms.Padding(2);
             this.spinButton.Name = "spinButton";
@@ -58,7 +58,7 @@
             // outputLabel
             // 
             this.outputLabel.BackColor = System.Drawing.Color.DimGray;
-            this.outputLabel.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.outputLabel.ForeColor = System.Drawing.Color.White;
             this.outputLabel.Location = new System.Drawing.Point(104, 236);
             this.outputLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -70,7 +70,7 @@
             // scoreDisplay
             // 
             this.scoreDisplay.BackColor = System.Drawing.Color.Transparent;
-            this.scoreDisplay.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scoreDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.scoreDisplay.ForeColor = System.Drawing.Color.White;
             this.scoreDisplay.Location = new System.Drawing.Point(59, 236);
             this.scoreDisplay.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -83,7 +83,7 @@
             // coinLabel
             // 
             this.coinLabel.BackColor = System.Drawing.Color.Transparent;
-            this.coinLabel.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coinLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.coinLabel.ForeColor = System.Drawing.Color.White;
             this.coinLabel.Location = new System.Drawing.Point(11, 235);
             this.coinLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -145,6 +145,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "One Armed Bandit";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
